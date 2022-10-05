@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #424551;
+}
+
+.container {
+    padding: 15px;
+    max-width: 840px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 118px;
+}
+
+.title {
+    color: #1E212C;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 1.3;
+    margin-bottom: 92px;
+}
+
+.container img {
+    margin-bottom: 60px;
+}
+
+.text1, .text2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #1E212C;
+}
+
+.text1 {
+    margin-bottom: 24px;
+}
+
+.paragraph1 {
+    margin-bottom: 40px;
+}
+
+.paragraph2 {
+    margin-bottom: 48px;
+}
+
+.text2 {
+    padding-left: 58px;
+    margin-bottom: 48px;
+}
+
+.paragraph3 {
+    margin-bottom: 24px;
+}
+
+.list {
+    padding-left: 32px;
+    margin-bottom: 24px;
+}
+
+.paragraph4 {
+    margin-bottom: 60px;
+}
+
+/* ================================================================ */
+
+
+.practice {
+    margin-bottom: 150px;
+}
+
+.practice__title {
+    font-size: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+
+.practice__block1 {
+    margin: 50px 0px 60px 50px;
+    padding: 15px;
+    max-width: 400px;
+    max-height: 200px;
+    text-align: justify;
+
+    border: 3px solid #000;
+    box-shadow: 6px 6px 5px #ccc;
+    border-radius: 16px;
+    
+    overflow: hidden;
+}
+
+.practice__block2 {
+    margin-left: auto;
+    margin-right: 50px;
+    padding: 15px;
+    max-width: 500px;
+    max-height: 250px;
+
+    text-align: justify;
+
+    outline: 8px ridge rgba(170, 50, 220, .6);
+    overflow: scroll;
+    border-radius: 20px 10px 50px 4px;
+    opacity: 0.6;
+}
+
+
+.practice__text {
+    display: inline-block;
+
+    margin-left: 300px;
+    margin-bottom: 30px;
+    padding: 15px;
+
+    border: 5px double #65d0f7;
+    border-radius: 60px;
+}
+
+.pracrice__circle {
+    width: 200px;
+    height: 200px;
+
+    margin: 50px auto 0;
+
+    border: 4px dotted rgb(236, 14, 248);
+    border-radius: 50%;
+
+    overflow: hidden;
+
+    box-shadow: 7px 7px 10px #000;
+}
+
+.practice__button {
+    width: 150px;
+    height: 75px;
+    padding: 25px 48px;
+    margin: 60px auto 0;
+
+    background: #8904f0;
+    color: #fff;
+
+    border-bottom: 6px solid #4b0085;
+    border-right: 6px solid #4b0085;
+    border-radius: 10px;
+
+    transition: all .2s linear;
+}
+
+.practice__button:hover {
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+
+    background: #7600d0;
+}
